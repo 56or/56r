@@ -9,11 +9,11 @@
         <key>FullScreen</key>
         <true/>
         <key>Label</key>
-        <string>VR7</string>
+        <string>56r</string>
         <key>PayloadDisplayName</key>
-        <string>VR7</string>
+        <string>56r</string>
         <key>PayloadIdentifier</key>
-        <string>com.vr7ios.webclip</string>
+        <string>com.56r.webclip</string>
         <key>PayloadType</key>
         <string>com.apple.webClip.managed</string>
         <key>PayloadUUID</key>
@@ -23,7 +23,7 @@
         <key>Precomposed</key>
         <true/>
         <key>URL</key>
-        <string>https://vr7ios.netlify.app</string>
+        <string>56r</string>
         <key>IsRemovable</key>
         <true/>
         <key>Icon</key>
@@ -33,11 +33,11 @@
       </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>VR7 App Profile</string>
+    <string>56r App Profile</string>
     <key>PayloadIdentifier</key>
-    <string>com.vr7top.mobileconfig</string>
+    <string>com.56rtop.mobileconfig</string>
     <key>PayloadOrganization</key>
-    <string>VR7</string>
+    <string>56r</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
