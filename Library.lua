@@ -2747,5 +2747,3 @@ function library:Load(opts)
     return windowTypes
 end
 return library
-    venuslib:Destroy()
-end})
