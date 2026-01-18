@@ -7,6 +7,45 @@ local coreGui = game:GetService("CoreGui")
 local library = {flags = {}, toggled = true, keybind = Enum.KeyCode.K, dragSpeed = 0.2}
 
 local themes = {
+    Red = {
+        TextColor = Color3.fromRGB(255, 255, 255),
+
+        MainFrame = Color3.fromRGB(255, 80, 80),
+        TabBackground = Color3.fromRGB(255, 100, 100),
+        Tab = Color3.fromRGB(255, 80, 80),
+
+        EnabledText = Color3.fromRGB(255, 255, 255),
+        DisabledText = Color3.fromRGB(255, 255, 255),
+
+        TabToggleEnabled = Color3.fromRGB(255, 120, 120),
+        TabToggleDisabled = Color3.fromRGB(255, 80, 80),
+        TabToggleDisabledMouseOver = Color3.fromRGB(255, 100, 100),
+
+        Section = Color3.fromRGB(200, 65, 65),
+
+        Button = Color3.fromRGB(255, 75, 75),
+        ButtonMouseOver = Color3.fromRGB(255, 120, 120),
+
+        ToggleEnabled = Color3.fromRGB(255, 120, 120),
+        ToggleEnabledMouseOver = Color3.fromRGB(255, 150, 150),
+        ToggleDisabled = Color3.fromRGB(255, 70, 70),
+        ToggleDisabledMouseOver = Color3.fromRGB(255, 80, 80),
+
+        Box = Color3.fromRGB(255, 80, 80),
+        BoxFocused = Color3.fromRGB(255, 100, 100),
+
+        Slider = Color3.fromRGB(255, 80, 80),
+        SliderMouseOver = Color3.fromRGB(255, 100, 100),
+        SliderFill = Color3.fromRGB(255, 100, 100),
+        SliderFillSliding = Color3.fromRGB(255, 100, 100),
+
+        Dropdown = Color3.fromRGB(255, 80, 80),
+        DropdownMouseOver = Color3.fromRGB(255, 100, 100),
+        DropdownContent = Color3.fromRGB(255, 80, 80),
+
+        ColorPicker = Color3.fromRGB(255, 80, 80),
+        ColorPickerBoxes = Color3.fromRGB(255, 100, 100)
+    },
     Dark = {
         TextColor = Color3.fromRGB(255, 255, 255),
         MainFrame = Color3.fromRGB(30, 30, 30),
@@ -688,7 +727,7 @@ function library:Load(opts)
                     ZIndex = 6,
                     Size = UDim2.new(1, 0, 0, 16),
                     BackgroundColor3 = theme.Box,
-                    PlaceholderColor3 = Color3.fromRGB(180, 180, 180),
+                    PlaceholderColor3 = Color3.fromRGB(255, 255, 255),
                     FontSize = Enum.FontSize.Size12,
                     TextSize = 12,
                     TextColor3 = theme.TextColor,
@@ -2708,3 +2747,5 @@ function library:Load(opts)
     return windowTypes
 end
 return library
+    venuslib:Destroy()
+end})
